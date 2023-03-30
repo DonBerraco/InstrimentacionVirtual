@@ -1,0 +1,25 @@
+Autores: Fernando Murillo, Rafael Martin Enciso, Luis Escareño.
+Este es el examen 1 de la materia Instrumentación Virtual.
+El código está desarrollado al cien por ciento y cumple con los requisitos
+
+Elabore un contemplando lo siguiente: 
+	
+Simule una señal aleatoria entre un rango de 25 a 125. 
+		
+Se deberá general un dato cada 500 ms. 	
+	
+Aplique un filtro EMA a la señal simulada. 
+			
+Filtro EMA deberá tener un factor Alpha de 0.3. 
+	
+Grafique ambas señales dentro de un solo gráfico. (Etiquete ambas señales y cambie el color para diferenciarlas)
+	
+Muestre en un indicador el valor actual de la señal analógica sin filtrar. 
+	
+Aplique un control on/off con histéresis considerando un límite máximo y mínimo de 60 y 38 respectivamente. Utilice un indicador booleano  
+	
+Dentro de un indicador deberá mostrar la cantidad de muestras que pasan han pasado en límite máximo. 
+	
+En un indicador booleano muestre cuando el dato actual esté dentro del rango. 
+	
+Al presionar un botón deberá finalizar el código y antes de finalizar deberá guardar los datos en un archivo de Excel. (Solo se deberá guardar una vez y es al presionar el botón de finalizar).
